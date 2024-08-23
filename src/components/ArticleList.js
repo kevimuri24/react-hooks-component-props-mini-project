@@ -9,7 +9,6 @@ function ArticleList({posts}) {
                 title={article.title}
                 date={article.date}
                 preview={article.preview}
-                minutes={article.minutes} // Pass the minutes prop
             />
         );
     });
